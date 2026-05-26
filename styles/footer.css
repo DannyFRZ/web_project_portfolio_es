@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 100px;
+}
+.footer__title {
+  font-family: "Archivo Black";
+  font-size: 40px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.footer__email {
+  font-family: "Open Sans";
+  font-size: 18px;
+  color: #6d6dff;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.footer__links {
+  display: flex;
+  justify-content: space-between; /* separa izquierda y derecha */
+  align-items: center; /* alinea verticalmente */
+  gap: 80px;
+  list-style: none;
+}
+.footer__icon {
+  width: 24px;
+  height: 24px;
+}
+.footer__email:hover {
+  opacity: 50%;
+}
+.footer__icon:hover {
+  opacity: 50%;
+}

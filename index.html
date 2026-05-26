@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/page.css" />
+    <link rel="stylesheet" href="./styles/content.css" />
+    <link rel="stylesheet" href="./styles/profile.css" />
+    <link rel="stylesheet" href="./styles/tools.css" />
+    <link rel="stylesheet" href="./styles/projects.css" />
+    <link rel="stylesheet" href="./styles/card.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <title>Sprint_4_Proyecto_de_Portafolio</title>
+  </head>
+  <body class="page">
+    <main class="content">
+      <section class="profile">
+        <div class="profile__info">
+          <div class="profile__heading">
+            <h1 class="profile__title">Daniel<br />Fuentes</h1>
+          </div>
+          <p class="profile__subtitle">
+            Desarrollador Full-Stack Junior | TypeScript, React, Node.js
+          </p>
+          <p class="profile__description">
+            Desarrollador web junior con experiencia práctica creando interfaces
+            limpias y responsivas con HTML, CSS, JavaScript y React, así como
+            implementando lógica básica de back-end. He trabajado en proyectos
+            formativos que siguen procesos reales de desarrollo, usando Git,
+            GitHub y Figma. Disfruto colaborar en equipo, mantener un código
+            claro y resolver problemas de forma estructurada. Motivado por
+            seguir aprendiendo, asumir nuevos retos y aprovechar oportunidades
+            para crecer como desarrollador.
+          </p>
+          <ul class="profile__links">
+            <li><a href="#" class="profile__link">Descargar CV</a></li>
+            <li><a href="#" class="profile__link">Enlace a GitHub</a></li>
+            <li><a href="#" class="profile__link">Hablemos</a></li>
+          </ul>
+        </div>
+        <img class="profile__image" src="images/image.jpg" />
+      </section>
+      <section class="tools">
+        <p class="tools__title">Habilidades y herramientas</p>
+        <ul class="tools__links">
+          <li class="tools__list-item">
+            <img class="tools__icon" src="images/html-5.svg" /><a
+              href="#HTML"
+            ></a>
+          </li>
+          <li class="tools__list-item">
+            <img class="tools__icon" src="images/css-3.svg" /><a
+              href="#CSS"
+            ></a>
+          </li>
+          <li class="tools__list-item">
+            <img class="tools__icon" src="images/javascript.svg" /><a
+              href="#JavaScript"
+            ></a>
+          </li>
+          <li class="tools__list-item">
+            <img class="tools__icon" src="images/git.svg" /><a href="#API"></a>
+          </li>
+          <li class="tools__list-item">
+            <img class="tools__icon" src="images/github.svg" /><a
+              href="#GitHub"
+            ></a>
+          </li>
+          <li class="tools__list-item">
+            <img class="tools__icon" src="images/chatgpt.svg" /><a
+              href="#ChatGPT"
+            ></a>
+          </li>
+        </ul>
+      </section>
+      <section class="projects">
+        <h2 class="projects__title">Proyectos Destacados</h2>
+        <div class="projects__columns">
+          <div class="projects__card">
+            <div class="projects__image project__card_coffee">
+              <div class="projects__icon">
+                <img src="images/html-5.svg" />
+                <img src="images/css-3.svg" />
+              </div>
+            </div>
+            <div class="projects__content">
+              <div class="projects__info">
+                <h3 class="projects__column-title">
+                  Página web de una cafetería
+                </h3>
+                <p class="projects__column__text">
+                  Desarrollo de una landing page responsiva para una cafetería
+                  siguiendo un brief de diseño. Incluye estructura semántica,
+                  maquetación con Flexbox, creación de secciones nuevas y un
+                  formulario de contacto funcional.<br />Logro: Implementé desde
+                  cero el diseño completo de la página, organicé el proyecto con
+                  buenas prácticas y publiqué la versión final utilizando GitHub
+                  Pages.
+                </p>
+              </div>
+              <ul class="projects__share">
+                <li class="projects__cardlink-item">
+                  <a href="#" class="cardlink cardlink_type_demo">
+                    <img src="images/Demo.svg" class="cardlink-icon" />
+                  </a>
+                </li>
+                <li class="projects__cardlink-item">
+                  <a
+                    href="https://github.com/DannyFRZ/web_project_coffeeshop_es"
+                    class="cardlink cardlink_type_github"
+                  >
+                    <img src="images/GitHub_Link.png" class="card__link-icon" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="projects__card">
+            <div class="projects__image project__card_project-pending">
+              <div class="projects__icon">
+                <img src="images/javascript.svg" />
+                <img src="images/React.svg" />
+              </div>
+            </div>
+            <div class="projects__content">
+              <div class="projects__info">
+                <h3 class="projects__column-title">Mi proyecto</h3>
+                <p class="projects__column__text">Descripción del proyecto</p>
+              </div>
+              <ul class="projects__share">
+                <li class="projects__cardlink-item">
+                  <a href="#" class="cardlink cardlink_type_demo">
+                    <img src="images/Demo.svg" class="cardlink-icon" />
+                  </a>
+                </li>
+                <li class="projects__cardlink-item">
+                  <a href="#" class="cardlink cardlink_type_github">
+                    <img src="images/GitHub_Link.png" class="card__link-icon" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__title">Contacto</p>
+      <p class="">
+        <a class="footer__email" href="https://mail.google.com/"
+          >danielfuentesrz07@gmail.com</a
+        >
+      </p>
+      <ul class="footer__links">
+        <li class="footer__list-item">
+          <a href="https://google.com"
+            ><img class="footer__icon" src="images/LinkedIn.svg"
+          /></a>
+        </li>
+        <li class="footer__list-item">
+          <img class="footer__icon" src="images/Facebook.svg" />
+        </li>
+        <li class="footer__list-item">
+          <img class="footer__icon" src="images/Instagram.svg" />
+        </li>
+        <li class="footer__list-item">
+          <img class="footer__icon" src="images/Twitter.svg" />
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

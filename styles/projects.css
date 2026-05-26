@@ -1,0 +1,29 @@
+.projects {
+  padding: 0 0 100px;
+}
+.projects__title {
+  font-family: "Archivo Black";
+  font-size: 40px;
+  color: #ffffff;
+  margin: 2px 0 50px;
+}
+.projects__columns {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.projects__card {
+  width: 100%;
+}
+.projects__image {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+.projects__cardlink-item:hover {
+  opacity: 50%;
+}

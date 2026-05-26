@@ -1,0 +1,22 @@
+.tools {
+  margin: 0 0 100px;
+}
+.tools__title {
+  font-family: "Archivo Black";
+  font-size: 40px;
+  color: #ffffff;
+  margin: 0 0 40px;
+}
+.tools__links {
+  display: flex;
+  justify-content: space-between; /* separa izquierda y derecha */
+  flex-wrap: wrap;
+  margin: 0;
+  gap: 40px;
+  padding: 0;
+  list-style: none;
+}
+.tools__icon {
+  width: 50px;
+  height: 50px;
+}
