@@ -27,3 +27,13 @@
 .projects__cardlink-item:hover {
   opacity: 50%;
 }
+@media screen and (max-width: 767px) {
+  .projects__columns {
+    flex-direction: column;
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+}
