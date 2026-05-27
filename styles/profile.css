@@ -65,15 +65,57 @@
     height: 280px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .profile__image {
     width: 280px;
     height: 280px;
-    display: grid;
   }
   .profile__description {
     font-family: "Open Sans";
     font-size: 16px;
     margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .profile__image {
+    grid-row: 1;
+    grid-column: 1;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .profile__title {
+    font-size: 36px;
+    margin: 15px 0 0;
+  }
+
+  .profile__subtitle {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .profile__links {
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px 0 50px;
+    align-items: flex-start;
+  }
+  .profile__link {
+    display: inline-block;
+    width: max-content;
+    max-width: 100%;
+    background-size: 100% 4px;
+    padding-bottom: 8px;
   }
 }

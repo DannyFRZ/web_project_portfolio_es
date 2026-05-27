@@ -11,6 +11,7 @@
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  margin: 0;
 }
 .projects__card {
   width: 100%;
@@ -27,11 +28,10 @@
   opacity: 50%;
 }
 @media screen and (max-width: 767px) {
-  .projects__columns {
-    flex-direction: column;
-    display: flex;
-  }
+  .projects,
+  .projects__columns,
   .projects__card {
-    width: 100%;
+    width: 100% !important;
+    max-width: 100% !important;
   }
 }
