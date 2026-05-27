@@ -69,6 +69,7 @@
   .profile__image {
     width: 280px;
     height: 280px;
+    display: grid;
   }
   .profile__description {
     font-family: "Open Sans";
